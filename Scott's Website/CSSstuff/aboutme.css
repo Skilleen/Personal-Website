@@ -1,0 +1,107 @@
+/* CSS containing classes for all pages except homepage */
+body{
+	background-image: url("possiblebackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    overflow-x: hidden; 
+}
+h1{
+	font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+h2 {
+		font-family: 'Nunito', sans-serif;
+}
+
+.top {
+	width: 100%;
+    height:auto;
+    padding: 10px;
+    margin: 0;
+    /*Blue Graident */
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.divbackground {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 0; 
+    background-color: #66CCFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.interests {
+	font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.5);
+    filter: none;
+  }
+.navbar .nav .active > a{
+   font-weight: 400;
+   background: none;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+.schoolNow {
+	font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.stillSchool {
+	font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.schoolBackground {
+    border-width: 4px;
+}
+
+.experiencebackground {
+	padding: 10px;
+    border: 5px solid black;
+    margin: 0; 
+    background-color: #1F88A7;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.portfolioText {
+	font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}

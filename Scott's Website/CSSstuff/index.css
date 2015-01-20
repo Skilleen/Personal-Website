@@ -1,0 +1,100 @@
+/* MY css for the home page*/
+
+body{
+	background-image: url("possiblebackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+
+}
+h2{
+	font-size: 3em;
+	font-family: 'Nunito', sans-serif;
+}
+h3{
+	font-size: 3em;
+    font-family: 'Nunito', sans-serif;
+}
+
+label{
+	font-size: 2em;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+.purpose {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+/* Used to center lists*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*Bacgkround of many of my divs*/
+.divbackground {
+    width: 700px;
+    border: 5px solid blue;
+    margin: 0; 
+    margin-left: auto;
+
+}
+
+.divbackgroundmobile {
+    width: 300px;
+    border: 5px solid blue;
+    margin: 0; 
+    margin-left: auto;
+
+}
+
+/* Top cover of site*/
+.top {
+	width: 100%;
+    height:auto;
+    padding: 10px;
+    margin: 0;
+    /*Blue Graident */
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+/* To allign stuff to the left*/
+.pictureLinks {
+    white-space: nowrap;
+    box-shadow: 10px 10px 5px #989898;
+    cursor: pointer;
+}
+
+
+.navbar {
+    background: rgba(0,0,0,0.5);
+    filter: none;
+  }
+.navbar .nav .active > a{
+   font-weight: 400;
+   background: none;
+}
+
+.dropdown:hover .dropdown-menu {
+        display: block;
+    }
